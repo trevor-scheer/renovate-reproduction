@@ -9,13 +9,9 @@
     {
       groupName: "all non-major dependencies",
       matchUpdateTypes: ["patch", "minor"],
+      matchCurrentVersion: "!/^0\\./",
       groupSlug: "all-npm-minor-patch",
       matchManagers: [ "npm" ],
-    },
-    {
-      matchCurrentVersion: "/^0\\./",
-      matchUpdateTypes: ["major", "minor"],
-      automerge: false,
-    },
+    }
   ]
 }
