@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/trevor-scheer/renovate-reproduction/issues"
   },
-  "homepage": "https://github.com/trevor-scheer/renovate-reproduction#readme"
+  "homepage": "https://github.com/trevor-scheer/renovate-reproduction#readme",
+  "dependencies": {
+    "@apollo/core-schema": "^0.2.3"
+  }
 }
