@@ -3,7 +3,7 @@
   enabledManagers: ["npm"],
   packageRules: [
     {
-      matchCurrentVersion: "0.x",
+      matchCurrentVersion: "/^0\\./",
       matchUpdateTypes: ["major", "minor"],
       automerge: false,
     },
