@@ -8,8 +8,8 @@
     // a suite of related packages all released at once.
     {
       groupName: "all non-major dependencies",
-      matchUpdateTypes: ["patch", "minor"],
       matchCurrentVersion: "!/^0\\./",
+      matchUpdateTypes: ["patch", "minor"],
       groupSlug: "all-npm-minor-patch",
       matchManagers: [ "npm" ],
     }

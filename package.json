@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/trevor-scheer/renovate-reproduction#readme",
   "dependencies": {
-    "@apollo/core-schema": "^0.2.3"
+    "@apollo/core-schema": "^0.2.3",
+    "@wbe/compose": "^0.7.0"
   }
 }
