@@ -4,7 +4,6 @@
   packageRules: [
     {
       matchCurrentVersion: "/^[\^~]?0/",
-      matchUpdateTypes: ["patch", "minor", "major"],
       automerge: false,
       matchManagers: [ "npm" ],
     },
