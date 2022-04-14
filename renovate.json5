@@ -1,6 +1,7 @@
 {
   dependencyDashboard: true,
   enabledManagers: ["npm"],
+  automerge: true,
   packageRules: [
     {
       matchCurrentVersion: "/^[\^~]?0/",
